@@ -1,4 +1,7 @@
 # extract-data-options
+[![Build Status](https://travis-ci.org/gsantiago/extract-data-options.svg?branch=master)](https://travis-ci.org/gsantiago/extract-data-options)
+[![npm version](https://badge.fury.io/js/extract-data-options.svg)](https://badge.fury.io/js/extract-data-options)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 <p align="center">
   <a href="https://saucelabs.com/u/extactdataoptions">
@@ -13,7 +16,7 @@ Extract options from data attributes:
      data-carousel-index="0"
      data-carousel-auto-play="true"
      data-carousel-controls.prev=".js-prev"
-     data-carousel-control.next=".js-next"
+     data-carousel-controls.next=".js-next"
      data-carousel-dots=".my-dots">
 </div>
 ```
