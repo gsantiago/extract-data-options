@@ -1,0 +1,45 @@
+{
+  "name": "extract-data-options",
+  "version": "0.0.1",
+  "description": "Extract `data-(namespace)-*` options from a HTML element",
+  "keywords": [
+    "data",
+    "options",
+    "object",
+    "json",
+    "settings",
+    "custom"
+  ],
+  "scripts": {
+    "lint": "standard index.js",
+    "karma": "karma start",
+    "test": "karma start --single-run",
+    "sauce": "karma start ./karma.sauce.conf.js",
+    "sauce-all": "npm run sauce && npm run sauce -- 1 && npm run sauce -- 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsantiago/extract-data-options"
+  },
+  "author": "Guilherme Santiago",
+  "license": "MIT",
+  "dependencies": {
+    "camel-case": "^3.0.0",
+    "lodash.set": "^4.3.2"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "dotenv": "^4.0.0",
+    "jasmine": "^2.5.3",
+    "karma": "^1.5.0",
+    "karma-browserify": "^5.1.1",
+    "karma-fixture": "^0.2.6",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-diff-reporter": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sauce-launcher": "^1.1.0",
+    "standard": "^8.6.0",
+    "watchify": "^3.9.0"
+  }
+}
