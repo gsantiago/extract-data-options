@@ -1,5 +1,6 @@
 # extract-data-options
 [![Build Status](https://travis-ci.org/gsantiago/extract-data-options.svg?branch=master)](https://travis-ci.org/gsantiago/extract-data-options)
+[![Build Status](https://saucelabs.com/buildstatus/extactdataoptions)](https://saucelabs.com/beta/builds/7e2581ea500d489a9d2e434435c5e72c)
 [![npm version](https://badge.fury.io/js/extract-data-options.svg)](https://badge.fury.io/js/extract-data-options)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
